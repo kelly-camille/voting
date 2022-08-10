@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting</title>
+</head>
+<body>
+  <form>
+    <label for="age">Are you 18 or older?</label>
+    <input id="age" type="number">
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="minors" class="hidden">
+    <h1>Sorry you're not old enough yet.</h1>
+    <p>Click <a href = "https://www.ncsl.org/research/elections-and-campaigns/preregistration-for-young-voters.aspx">Here</a> to learn more about voting.</p>
+  </div>
+
+
+  <div id="over-18" class="hidden">
+    <h1>Voting Information</h1>
+    <p>Click <a href = "https://www.commoncause.org/voting-tools/verify-your-voter-registration-status/?gclid=Cj0KCQjwrs2XBhDjARIsAHVymmQtGb9jtB2SBEm6IoEUWyyqXBMaLo9pvD0YNwFYCwV0XFo33e0fBhkaAhpBEALw_wcB">Here</a>
+    to verify your voter registration status</p>
+  </div>
+
+</body>
+</html>
